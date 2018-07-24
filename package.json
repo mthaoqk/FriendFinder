@@ -1,7 +1,7 @@
 {
-  "name": "friend-finder",
+  "name": "package",
   "version": "1.0.0",
-  "description": "The Friend Finder application is basically a dating app, but for new buddies. This full-stack site will take in users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,12 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/smaashthemac/friend-finder.git"
+    "url": "git+https://github.com/mthaoqk/FriendFinder.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/smaashthemac/friend-finder/issues"
+    "url": "https://github.com/mthaoqk/FriendFinder/issues"
   },
-  "homepage": "https://github.com/smaashthemac/friend-finder#readme"
+  "homepage": "https://github.com/mthaoqk/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
 }
